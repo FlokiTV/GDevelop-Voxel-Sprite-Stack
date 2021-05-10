@@ -15,3 +15,16 @@ https://games.gdevelop-app.com/game-a5c8f66a-600e-4c35-9ef5-74fe3421c847/index.h
 
 Check the videos:
 https://www.youtube.com/playlist?list=PLe_oBt7tqrpf7KOVxOThL1H1-VwLuKRZi
+
+Some free vox models
+https://reddany.itch.io/pack-3-truck-style-voxel
+https://maxparata.itch.io/voxel-mechas
+https://maxparata.itch.io/voxel-spaceships
+
+Todo:
+
+- shadow system
+- camera rotation
+- animation suport
+
+Send inssues to help
