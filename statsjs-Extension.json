@@ -1,0 +1,71 @@
+{
+  "author": "https://github.com/FlokiTV",
+  "description": "Load stats.js",
+  "extensionNamespace": "",
+  "fullName": "Stats.js",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNoYXJ0LWJlbGwtY3VydmUtY3VtdWxhdGl2ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik00IDE5VjIwSDIyVjIySDJWMkg0VjE3QzcgMTcgMTAgMTUgMTIuMSAxMS40QzE1LjEgNi40IDE4LjQgNCAyMiA0VjZDMTkuMiA2IDE2LjUgOC4xIDEzLjkgMTIuNUMxMS4zIDE2LjYgNy43IDE5IDQgMTlaIiAvPjwvc3ZnPg==",
+  "name": "StatsJS",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/chart-bell-curve-cumulative.svg",
+  "shortDescription": "Load stats.js",
+  "version": "1",
+  "tags": [
+    "statsjs",
+    "statistics",
+    "fps"
+  ],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Load stats.js",
+      "fullName": "Load stats.js",
+      "functionType": "Action",
+      "name": "LoadStats",
+      "private": false,
+      "sentence": "Load stats.js _PARAM1_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "const init = () => { var stats=new Stats();document.body.appendChild(stats.dom);requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)}); }\nif(eventsFunctionContext.getArgument(\"load\"))\nfetch('http://mrdoob.github.io/stats.js/build/stats.min.js')\n    .then(resp => resp.text() )\n    .then(code => {\n        eval.call(this, code)\n        init()\n    })",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Load stats.js",
+          "longDescription": "",
+          "name": "load",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "yesorno"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": []
+}

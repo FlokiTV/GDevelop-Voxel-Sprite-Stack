@@ -1,30 +1,80 @@
-
 # GDevelop Voxel Sprite Stack
 
 #### 2D rendering tecnic built over PixiJS and support for GDevelop Engine
-  
+
 This tool is focused in Magica Voxel *Slice Exporter* (Vertical sheet)
+
 I'll working to suport any directions slice sprite sheet
 
-Before start, remember to apply **nearest** on scale mode
 
-Dowload link: [Extension.json](https://raw.githubusercontent.com/FlokiTV/GDevelop-Voxel-Sprite-Stack/main/Extension.json)
+### Before start, remember to apply **nearest** on scale mode
 
-Online Example:
-https://games.gdevelop-app.com/game-a5c8f66a-600e-4c35-9ef5-74fe3421c847/index.html
+#### Dowload link: [Extension.json](https://raw.githubusercontent.com/FlokiTV/GDevelop-Voxel-Sprite-Stack/main/Extension.json)
 
-Check the videos:
+This project will be imported into ct.js soon
+If you want to help maintain this repository, go ahead
+
+
+#### Tutorial:
+
+https://www.youtube.com/watch?v=gFqr2yaCLAY - *old - now has camera 3d, but works*
+
+
+## YOUR MODEL MUST BE ON ANIMATION #1
+
+![enter image description here](https://i.imgur.com/jaGB5SK.png)
+tip: make a invisible png on end of animation 0 to hide ingame placeholder
+
+#### Online Example:
+
+Example: https://games.gdevelop-app.com/game-5ede3bb4-0d62-4d59-8f43-32fafc2efd20/index.html
+
+City: https://games.gdevelop-app.com/game-3cceda9d-11bd-405c-ae3a-40ff394db30a/index.html
+
+City Pixalate: https://games.gdevelop-app.com/game-3cceda9d-11bd-405c-ae3a-40ff394db30a/index.html
+
+old: https://games.gdevelop-app.com/game-a5c8f66a-600e-4c35-9ef5-74fe3421c847/index.html
+
+  
+
+#### Check the videos:
+
 https://www.youtube.com/playlist?list=PLe_oBt7tqrpf7KOVxOThL1H1-VwLuKRZi
 
-Some free vox models
+
+#### Some free vox models
+
 https://reddany.itch.io/pack-3-truck-style-voxel
+
+https://mehrasaur.itch.io/voxel-buildings
+
 https://maxparata.itch.io/voxel-mechas
+
 https://maxparata.itch.io/voxel-spaceships
+
 
 Todo:
 
+ ~~- camera rotation~~
+
 - shadow system
-- camera rotation
-- animation suport
+
+- animation suport 
 
 Send inssues to help
+
+
+### Resources
+
+https://marctenbosch.com/quaternions/  
+
+https://medium.com/swlh/understanding-3d-matrix-transforms-with-pixijs-c76da3f8bd8
+ 
+
+### Inspirations
+
+https://www.youtube.com/watch?v=_BztMPC5Kk4
+
+https://www.youtube.com/watch?v=WZ64avAykTA
+
+https://www.youtube.com/watch?v=DNDwo7855Gs
