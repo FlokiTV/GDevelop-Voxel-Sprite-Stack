@@ -11,10 +11,6 @@ I'll working to suport any directions slice sprite sheet
 
 #### Dowload link: [Extension.json](https://raw.githubusercontent.com/FlokiTV/GDevelop-Voxel-Sprite-Stack/main/Extension.json)
 
-This project will be imported into ct.js soon
-If you want to help maintain this repository, go ahead
-
-
 #### Tutorial:
 
 https://www.youtube.com/watch?v=gFqr2yaCLAY - *old - now has camera 3d, but works*
