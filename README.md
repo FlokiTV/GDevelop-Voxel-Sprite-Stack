@@ -23,8 +23,8 @@ tip: make a invisible png on end of animation 0 to hide ingame placeholder
 
 #### Online Example:
 
-Example: https://games.gdevelop-app.com/game-6a912d3c-8188-4de1-9829-edede094439c/index.html
-City: https://games.gdevelop-app.com/game-bc35c5f0-3004-41d1-9bb1-de996d31adad/index.html
+- Example: https://games.gdevelop-app.com/game-6a912d3c-8188-4de1-9829-edede094439c/index.html
+- City: https://games.gdevelop-app.com/game-bc35c5f0-3004-41d1-9bb1-de996d31adad/index.html
 
 - OLD
     - Example: https://games.gdevelop-app.com/game-5ede3bb4-0d62-4d59-8f43-32fafc2efd20/index.html
