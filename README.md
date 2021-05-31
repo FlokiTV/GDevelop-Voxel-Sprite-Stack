@@ -78,6 +78,9 @@ https://www.youtube.com/playlist?list=PLe_oBt7tqrpf7KOVxOThL1H1-VwLuKRZi
 
 Send inssues to help
 
+##### Like my job? please help me keep working on this
+https://www.patreon.com/FlokiTV
+
 #### Some free vox models
 
 https://reddany.itch.io/pack-3-truck-style-voxel
